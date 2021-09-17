@@ -1,6 +1,7 @@
-package entity;
+package resourcesJustin.entity;
 
 public interface ResourceRepository {
-    void add( Resource resource);
+    void add(Resource resource);
+
     Resource removeStale();
 }

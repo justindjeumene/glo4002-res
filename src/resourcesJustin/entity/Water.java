@@ -1,14 +1,14 @@
-package entity;
+package resourcesJustin.entity;
 
-public class Salad extends ResourceElements implements ResourceType {
-    private static int expiration = 3;
+public class Water extends ResourceElements implements ResourceType {
+    private static int expiration = 10;
 
-    public Salad(int quantity, String name) {
+    public Water(int quantity, String name) {
         super(quantity, name);
     }
 
     @Override
-    public void consumeResource(){
+    public void consumeResource() {
         expiration--;
     }
 
@@ -18,7 +18,7 @@ public class Salad extends ResourceElements implements ResourceType {
     }
 
     @Override
-    public String getResourceName(){
+    public String getResourceName() {
         return super.getName();
     }
 

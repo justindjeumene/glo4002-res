@@ -1,4 +1,4 @@
-package entity;
+package resourcesJustin.entity;
 
 public class ResourceElements {
     private int quantity;

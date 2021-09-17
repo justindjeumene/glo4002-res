@@ -1,11 +1,11 @@
-import entity.*;
-import persistence.ResourceRepositoryInMemory;
+import resourcesJustin.entity.*;
+import resourcesJustin.persistence.ResourceRepositoryInMemory;
 
 public class MainTest {
     public static void main(String[] args) {
         ResourceType burger = new Burger(100, "qytBurger");
         ResourceType water = new Water(10, "qtyWater");
-        ResourceType salad = new Salad(10, "qtySalad");
+        ResourceType salad = new Salad(250, "qtySalad");
 
         Resource resource = new Resource();
 

@@ -1,7 +1,7 @@
-package persistence;
+package resourcesJustin.persistence;
 
-import entity.Resource;
-import entity.ResourceRepository;
+import resourcesJustin.entity.Resource;
+import resourcesJustin.entity.ResourceRepository;
 
 import java.util.LinkedList;
 import java.util.Queue;

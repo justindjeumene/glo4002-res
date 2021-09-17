@@ -1,4 +1,4 @@
-package entity;
+package resourcesJustin.entity;
 
 public class Burger extends ResourceElements implements ResourceType {
     private static int expiration = 4;
@@ -8,7 +8,7 @@ public class Burger extends ResourceElements implements ResourceType {
     }
 
     @Override
-    public void consumeResource(){
+    public void consumeResource() {
         expiration--;
     }
 
@@ -18,7 +18,7 @@ public class Burger extends ResourceElements implements ResourceType {
     }
 
     @Override
-    public String getResourceName(){
+    public String getResourceName() {
         return super.getName();
     }
 
